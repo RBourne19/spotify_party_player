@@ -1,0 +1,64 @@
+.waiting_room{
+    margin:auto;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.room_code{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.player_list{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2%;
+    
+    height: auto;
+    width: auto;
+}
+.player_container{
+    width: auto;
+    height: auto;
+    
+    display: flex;
+}
+.player_name{
+    width: 60%;
+    border: 1px solid black;
+    line-height: 200%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 750;
+}
+.player_time{
+    
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 200%;
+    font-weight: 600;
+}
+.player_img{
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 5px;
+}
+.img_container{
+    width: fit-content;
+    border: 1px solid black;
+}
+.lobby_title{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 750;
+    
+}

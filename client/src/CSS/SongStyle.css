@@ -1,0 +1,137 @@
+.result_container:has(.song_result){
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    position: absolute;
+    
+    z-index: 1;
+}
+.result_container{
+    display: none;
+}
+.result_parent_container{
+    width: 100%;
+}
+.song_result{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    background-color: white;
+}
+.song_result:hover{
+    color: #1ed780;
+}
+.song_img{
+    height: 50px;
+    width: 48px;
+    border: 1px solid black;
+}
+.song_text_container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.song_name{
+    margin-left: 4px;
+    font-weight: 550;
+    max-height: 60%;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.song_artist{
+    margin-left: 4px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+.song_time{
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+.search_box{ 
+    border: 1px solid black;
+    height: 50px;
+    font-size: 32px;
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+}
+.search_box[type='text']{
+    padding: 4px;
+}
+
+.search_container{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.player_songlist_container:has(.player_song_container){
+    margin: auto;
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.player_songlist_container{
+    display: none;
+}
+.player_song_container{
+    width: 100%;
+    height: 64px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 4px 2px rgb(158, 148, 148);
+}
+
+.player_songtext_container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.player_song_img{
+    height: auto;
+    max-width: fit-content;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.player_song_name{
+    margin-left: 4px;
+    font-weight: 550;
+    max-height: 60%;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.player_song_artist{
+    margin-bottom: 4px;
+    margin-left: 3px;
+    font-size: 16px;
+    color: gray;
+}
+.songlist_container{
+    margin: auto;
+    width: 350px;
+    border-radius: 6px;
+    background-color: rgb(212, 211, 211);
+}
