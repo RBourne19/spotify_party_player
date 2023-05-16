@@ -10,7 +10,7 @@
 
 ## Client
 ### This is the frontend of the website, built in React
-#### View a demo of the client side [here](https://github.com/RBourne19/spotify_webapp/tree/master/client#client)
+#### View a demo of the client side [here](https://github.com/RBourne19/spotify_party_player/tree/main/client)
 ## Rest API
 ### Handles the initial authentication flow for the project and handles the Spotify OAuth 2 authentication flow for the host. 
 ## Websocket
